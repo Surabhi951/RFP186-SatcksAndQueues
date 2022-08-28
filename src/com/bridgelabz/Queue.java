@@ -22,7 +22,6 @@ public class Queue <T> {
         return linkedList.peek();
     }
 
-
     public T dequeue() {
         return linkedList.pop();
     }

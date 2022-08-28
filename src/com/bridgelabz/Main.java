@@ -17,7 +17,6 @@ public class Main {
             stack.print();
             System.out.println();
         }
-
         queue.enqueu(56);
         queue.enqueu(30);
         queue.enqueu(70);
