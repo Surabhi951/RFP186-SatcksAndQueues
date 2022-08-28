@@ -33,4 +33,23 @@ public class LinkedList <E> {
         }
         System.out.println();
     }
+
+    public E pop(){
+        E popData = head.getKey();
+        head = head.getNext();
+        return popData;
+    }
+
+    public int size() {
+        int count = 0;
+        Node<E> temp = head;
+        while (temp != null) {
+            count++;
+            temp = temp.getNext();
+        }
+        return count;
+    }
+    public E peek(){
+        return head.getKey();
+    }
 }
