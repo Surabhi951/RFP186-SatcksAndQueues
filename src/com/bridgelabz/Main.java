@@ -17,10 +17,17 @@ public class Main {
             stack.print();
             System.out.println();
         }
-
         queue.enqueu(56);
         queue.enqueu(30);
         queue.enqueu(70);
         queue.print();
+
+        System.out.println();
+        while(!queue.isEmpty()){
+            System.out.println(queue.peek());
+            queue.dequeue();
+            queue.print();
+            System.out.println();
+        }
     }
 }
