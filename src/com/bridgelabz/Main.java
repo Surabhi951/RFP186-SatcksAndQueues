@@ -3,6 +3,7 @@ package com.bridgelabz;
 public class Main {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
+        Queue<Integer> queue = new Queue<>();
 
         stack.push(70);
         stack.push(30);
@@ -16,5 +17,10 @@ public class Main {
             stack.print();
             System.out.println();
         }
+
+        queue.enqueu(56);
+        queue.enqueu(30);
+        queue.enqueu(70);
+        queue.print();
     }
 }
