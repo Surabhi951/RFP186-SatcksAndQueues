@@ -17,4 +17,16 @@ public class Stack <T> {
     public void print() {
         linkedList.print();
     }
+
+    public T pop() {
+        return linkedList.pop();
+    }
+
+    public T peek(){
+        return linkedList.peek();
+    }
+
+    public boolean isEmpty(){
+        return linkedList.size() == 0;
+    }
 }
